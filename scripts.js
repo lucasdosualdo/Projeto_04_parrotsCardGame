@@ -3,7 +3,6 @@ const arrayGifs =["bobrossparrot", "explodyparrot","fiestaparrot","metalparrot",
 arrayGifs.sort(comparador);
 let cartas;
 let contTotal = 0;
-
 let cont = 0;
 let primeiraCarta;
 let segundaCarta;
@@ -49,8 +48,6 @@ function adicionarCartas(index){
        `
    }
 }
-
-// commit
 
 function reset(primeiraCarta, segundaCarta){
    primeiraCarta.classList.remove("rotacionar");

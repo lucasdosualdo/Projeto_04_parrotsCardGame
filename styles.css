@@ -80,7 +80,7 @@ img {
         text-align: center;
     }
 
-    div {
+    .container {
         height: 100%;
         width: 100%;
     }
